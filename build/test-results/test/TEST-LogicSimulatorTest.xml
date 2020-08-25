@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogicSimulatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-25T02:41:58" hostname="DESKTOP-V8D8G21" time="0.007">
+  <properties/>
+  <testcase name="testGetSimulationResult" classname="LogicSimulatorTest" time="0.007"/>
+  <system-out><![CDATA[2
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

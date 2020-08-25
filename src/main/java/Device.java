@@ -17,7 +17,6 @@ public class Device {
     public void setInput(boolean value)
     {
         // complete this method by yourself
-        //iPins.get(0).setInput(value);
     }
 
     public boolean getOutput()
