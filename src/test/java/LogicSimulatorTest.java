@@ -4,6 +4,8 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.Vector;
 
+import static org.junit.Assert.assertEquals;
+
 public class LogicSimulatorTest
 {
     String file1Path;
@@ -27,12 +29,22 @@ public class LogicSimulatorTest
         inputValues.add(true);
         inputValues.add(true);
 
-        System.out.println(logicSimulator.getSimulationResult(inputValues));
-        /*assertEquals("Simulation Result:\n" +
+        assertEquals("Simulation Result:\n" +
                 "i i i | o\n" +
                 "1 2 3 | 1\n" +
                 "------+--\n" +
-                "0 1 1 | 0\n", logicSimulator.getSimulationResult(inputValues));*/
+                "0 1 1 | 0\n", logicSimulator.getSimulationResult(inputValues));
+
+        /*inputValues = new Vector<>();
+        inputValues.add(true);
+        inputValues.add(false);
+        inputValues.add(false);
+
+        assertEquals("Simulation Result:\n" +
+                "i i i | o\n" +
+                "1 2 3 | 1\n" +
+                "------+--\n" +
+                "1 0 0 | 1\n", logicSimulator.getSimulationResult(inputValues));*/
     }
 
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LogicSimulatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-26T00:59:43" hostname="DESKTOP-I3NGB56" time="0.012">
+<testsuite name="LogicSimulatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-26T10:39:24" hostname="DESKTOP-I3NGB56" time="0.01">
   <properties/>
-  <testcase name="testGetSimulationResult" classname="LogicSimulatorTest" time="0.012"/>
-  <system-out><![CDATA[false
-]]></system-out>
+  <testcase name="testGetSimulationResult" classname="LogicSimulatorTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
