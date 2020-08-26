@@ -1,9 +1,8 @@
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Vector;
-
-import static org.junit.Assert.*;
 
 public class LogicSimulatorTest
 {
@@ -28,6 +27,7 @@ public class LogicSimulatorTest
         inputValues.add(true);
         inputValues.add(true);
 
+        System.out.println(logicSimulator.getSimulationResult(inputValues));
         /*assertEquals("Simulation Result:\n" +
                 "i i i | o\n" +
                 "1 2 3 | 1\n" +

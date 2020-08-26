@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9556c47-7970-42cb-927a-5fd66e8a9096" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,20 +34,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GateNOT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GateNOT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LogicSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LogicSimulator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/DeviceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/DeviceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LogicSimulatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LogicSimulatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/DeviceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LogicSimulatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/LogicSimulatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-DeviceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LogicSimulatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-LogicSimulatorTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GateNOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GateNOT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogicSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogicSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeviceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LogicSimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogicSimulatorTest.java" afterDir="false" />
     </list>
@@ -54,9 +58,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="293" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -96,11 +97,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -111,50 +116,31 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.LogicSimulatorTest.testGetSimulationResult">
+    <configuration name="DeviceTest.testDevicePolymorphism" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DeviceTest.testDevicePolymorphism&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DeviceTest.testGateAND" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;DeviceTest.testGateAND&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DeviceTest.testGateNOT" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DeviceTest.testGateNOT&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DeviceTest.testGateOR" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DeviceTest.testGateOR&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,6 +173,25 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LogicSimulatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;LogicSimulatorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LogicSimulatorTest.testGetSimulationResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,7 +206,7 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
@@ -210,9 +215,9 @@
       <list>
         <item itemvalue="Gradle.LogicSimulatorTest.testGetSimulationResult" />
         <item itemvalue="Gradle.DeviceTest.testIPinAndOPin" />
+        <item itemvalue="Gradle.DeviceTest.testDevicePolymorphism" />
+        <item itemvalue="Gradle.LogicSimulatorTest" />
         <item itemvalue="Gradle.DeviceTest.testGateAND" />
-        <item itemvalue="Gradle.DeviceTest.testGateOR" />
-        <item itemvalue="Gradle.DeviceTest.testGateNOT" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +245,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -247,10 +253,15 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597304147678">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1598332502682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598332502682" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598333722630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597304147678" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598333722630" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596960713020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,11 +270,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596951140027" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1597298616461">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1598333574047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597298616461" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597045005416" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598333574047" />
     <state x="434" y="182" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1598255829909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -282,50 +294,88 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596962967394" />
+    <state x="721" y="274" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1598334895446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="274" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598334895446" />
     <state x="685" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597303899665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="685" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597303899665" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1598323316316">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="771" y="282" key="FileChooserDialogImpl" timestamp="1598370113419">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598323316316" />
+    <state x="771" y="282" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598370113419" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1598403574196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1306" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598341923215" />
     <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597301956505" />
     <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597306904928" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597046694324" />
     <state width="2517" height="171" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1597134918341" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1598323316316">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598403574196" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1598403574196">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598323316316" />
+    <state width="1306" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598341923214" />
     <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597301956505" />
     <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597306904928" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597046694324" />
     <state width="2517" height="171" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1597134918340" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1598323316316">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598403574196" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1598403574196">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598323316316" />
+    <state width="1306" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598341923214" />
     <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597301956505" />
     <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597306904928" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597046694324" />
     <state width="2517" height="171" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1597134918340" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1598323316316">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598403574196" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1598403574196">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598323316316" />
+    <state width="1306" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598341923215" />
     <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597301956505" />
     <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597306904928" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597046694324" />
     <state width="2517" height="171" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1597134918341" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1597412412083">
+    <state width="1877" height="172" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598403574196" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1598379393331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598379393331" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1598379393331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598379393331" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1598379393331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598379393331" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1598379393331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598379393331" />
+    <state x="460" y="134" key="SettingsEditor" timestamp="1598403552355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598339748446" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1597412412083" />
+    <state x="460" y="134" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598403552355" />
     <state x="615" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596952324768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596952324768" />
+    <state x="494" y="264" width="994" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598337330868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="494" y="264" width="994" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598337330868" />
+    <state x="774" y="273" key="refactoring.ChangeSignatureDialog" timestamp="1598337122105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="774" y="273" key="refactoring.ChangeSignatureDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1598337122105" />
     <state x="499" y="168" key="run.anything.popup" timestamp="1598322229234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -338,9 +388,20 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596957665163" />
     <state x="831" y="225" width="896" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1597124045852" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/109OrientationCourse_Object_Oriented_Programming$LogicSimulatorTest_testGetSimulationResult.ic" NAME="LogicSimulatorTest.testGetSimulationResult Coverage Results" MODIFIED="1598337751191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/109OrientationCourse_Object_Oriented_Programming$Tests_in__109OrientationCourse_Object_Oriented_Programming_test_.ic" NAME="Tests in '109OrientationCourse_Object-Oriented_Programming.test' Coverage Results" MODIFIED="1597304293857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/109OrientationCourse_Object_Oriented_Programming$Tests_in__Model_.ic" NAME="Tests in 'Model' Coverage Results" MODIFIED="1597304315335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/109OrientationCourse_Object_Oriented_Programming$LogicSimulatorTest.ic" NAME="LogicSimulatorTest Coverage Results" MODIFIED="1597084665855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/109OrientationCourse_Object_Oriented_Programming$Tests_in__Model_.ic" NAME="Tests in 'Model' Coverage Results" MODIFIED="1597304315335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

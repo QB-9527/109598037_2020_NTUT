@@ -18,7 +18,6 @@ public class DeviceTest
         // 0 = 0
         IPin iPin = new IPin();
         iPin.setInput(true);
-
         OPin oPin = new OPin();
         oPin.addInputPin(iPin);
 
