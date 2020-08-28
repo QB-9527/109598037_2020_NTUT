@@ -11,14 +11,13 @@ public class LogicSimulator {
     private Vector<Integer> oPinsList;
     private int inputNums=0;
     private int gateNums=0;
-    private String str="";
 
     public LogicSimulator() {
-        circuits = new Vector<>();
-        iPins = new Vector<>();
-        oPins = new Vector<>();
-        circuits_pin = new Vector<Vector<Double>>();
-        oPinsList = new Vector<>();
+        circuits = new Vector<>();  //gate
+        iPins = new Vector<>();     //輸入腳
+        oPins = new Vector<>();     //輸出腳
+        circuits_pin = new Vector<>();  //gate連接的腳位
+        oPinsList = new Vector<>(); //輸出腳名單，從gate中篩選出
     }
 
     public void load(String file1Path) throws IOException {
@@ -28,41 +27,44 @@ public class LogicSimulator {
 
         if (br.ready()) {
             inputNums=Integer.parseInt(br.readLine());
-            for(int i=0;i<inputNums;i++){
-                this.iPins.add(new IPin());
-            }
             gateNums=Integer.parseInt(br.readLine());
             for(int i=0;i<gateNums;i++) {
-                //this.oPins.add(new OPin());     //OPin
                 oPinsList.add(i);
-                str=br.readLine();
+                String str=br.readLine();
                 String[] str_arr = str.split("\\s+");
-                int gateKind = Integer.parseInt(str_arr[0]);
 
-                if (gateKind ==1){
-                    this.circuits.add(new GateAND());
-                }else if (gateKind ==2){
-                    this.circuits.add(new GateOR());
-                }else if (gateKind ==3) {
-                    this.circuits.add(new GateNOT());
+                Vector<Double> mVec=new Vector<>();
+                for(int j=0;j< str_arr.length;j++){
+                    mVec.add(Double.parseDouble(str_arr[j]));
                 }
-
-                this.circuits_pin.add(new Vector());
-                for(int j=1;j< str_arr.length;j++){
-                    this.circuits_pin.get(i).add(Double.parseDouble(str_arr[j]));
-                }
+                this.circuits_pin.addElement(mVec);
             }
         }
         fr.close();
     }
 
     public void LineUP(){
+        clearDevice();
+        for(int i=0;i<inputNums;i++){
+            this.iPins.add(new IPin());
+        }
+
+        for(int i=0;i<gateNums;i++){
+            int gateKind =  circuits_pin.get(i).get(0).intValue();
+            if (gateKind ==1){
+                this.circuits.add(new GateAND());
+            }else if (gateKind ==2){
+                this.circuits.add(new GateOR());
+            }else if (gateKind ==3) {
+                this.circuits.add(new GateNOT());
+            }
+        }
+
         int compare_num=0;
         double mpin=0;
         int mpin_index=0;
-
         for(int i=0;i<gateNums;i++){
-            for(int j=0;j<circuits_pin.get(i).size();j++){
+            for(int j=1;j<circuits_pin.get(i).size();j++){
                 mpin=circuits_pin.get(i).get(j);
                 compare_num=Double.compare(mpin,0);
                 if (compare_num==0){
@@ -83,6 +85,42 @@ public class LogicSimulator {
         }
     }
 
+    public StringBuilder tableCommonStr(){
+        StringBuilder commonStr = new StringBuilder();
+
+        //"i i i | o\n"
+        for(int i=0;i<inputNums;i++){
+            commonStr.append("i ");
+        }
+        commonStr.append("|");
+        for(int i=0;i<oPins.size();i++){
+            commonStr.append(" o");
+        }
+        commonStr.append("\n");
+
+        //"1 2 3 | 1\n"
+        for(int i=0;i<inputNums;i++){
+            commonStr.append((i + 1) +" ");
+        }
+        commonStr.append("|");
+        for(int i=0;i<oPins.size();i++){
+            commonStr.append(" "+ (i + 1));
+        }
+        commonStr.append("\n");
+
+        //"------+--\n"
+        for(int i=0;i<inputNums;i++){
+            commonStr.append("--");
+        }
+        commonStr.append("+");
+        for(int i=0;i<oPins.size();i++){
+            commonStr.append("--");
+        }
+        commonStr.append("\n");
+
+        return commonStr;
+    }
+
     public String getSimulationResult(Vector<Boolean> inputValues) {
         LineUP();
 
@@ -90,44 +128,13 @@ public class LogicSimulator {
         simulationResultStr.append("Simulation Result:\n");
 
         //"i i i | o\n"
-        for(int i=0;i<inputNums;i++){
-            simulationResultStr.append("i ");
-        }
-        simulationResultStr.append("|");
-        for(int i=0;i<oPins.size();i++){
-            simulationResultStr.append(" o");
-        }
-        simulationResultStr.append("\n");
-
         //"1 2 3 | 1\n"
-        for(int i=0;i<inputNums;i++){
-            simulationResultStr.append((i + 1) +" ");
-        }
-        simulationResultStr.append("|");
-        for(int i=0;i<oPins.size();i++){
-            simulationResultStr.append(" "+ (i + 1));
-        }
-        simulationResultStr.append("\n");
-
         //"------+--\n"
-        for(int i=0;i<inputNums;i++){
-            simulationResultStr.append("--");
-        }
-        simulationResultStr.append("+");
-        for(int i=0;i<oPins.size();i++){
-            simulationResultStr.append("--");
-        }
-        simulationResultStr.append("\n");
+        simulationResultStr.append(tableCommonStr());
 
         //"0 1 1 | 0\n"
         for(int i=0;i<inputValues.size();i++){
             this.iPins.get(i).setInput(inputValues.get(i));
-
-            /*if (inputValues.get(i)){
-                simulationResultStr.append("1 ");
-            }else{
-                simulationResultStr.append("0 ");
-            }*/
             simulationResultStr.append(inputValues.get(i) ? "1 " : "0 ");
         }
         simulationResultStr.append("|");
@@ -139,11 +146,48 @@ public class LogicSimulator {
         return simulationResultStr.toString();
     }
 
-    public void resetAll(){
+    public String getTruthTable(){
+        LineUP();
+
+        StringBuilder truthTableStr = new StringBuilder();
+        truthTableStr.append("Truth table:\n");
+
+        //"i i i | o\n"
+        //"1 2 3 | 1\n"
+        //"------+--\n"
+        truthTableStr.append(tableCommonStr());
+
+        String inputValueStr = "";
+
+        //"0 0 0 | 0\n"
+        for(int i=0;i<(int)Math.pow(2,inputNums);i++){
+            inputValueStr=String.format("%0"+ inputNums +"d", Integer.valueOf(Integer.toBinaryString(i)));
+            for(int j=0;j<inputValueStr.length();j++){
+                this.iPins.get(j).setInput(inputValueStr.charAt(j) == '1');
+                truthTableStr.append(inputValueStr.charAt(j)+" ");
+            }
+            truthTableStr.append("|");
+            for(int j=0;j<oPins.size();j++){
+                truthTableStr.append(oPins.get(j).getOutput() ? " 1" : " 0");
+            }
+            truthTableStr.append("\n");
+        }
+
+
+        return truthTableStr.toString();
+    }
+
+    public void clearDevice(){
         circuits.clear();
         iPins.clear();
         oPins.clear();
+    }
+
+    public void resetAll(){
+        clearDevice();
         circuits_pin.clear();
         oPinsList.clear();
+        inputNums=0;
+        gateNums=0;
     }
 }
